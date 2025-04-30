@@ -57,4 +57,4 @@
 - **.tgz**:
     - The universal Linux format
 
-![Types of packages](image.png)
+![Types of packages](images/package-types.png)

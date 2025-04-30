@@ -4,14 +4,14 @@
 ## Check current shell
 - You can find out which shell you are using by running:
 ```bash
-    echo $SHELL
+echo $SHELL
 ```
 
 ## Switch between shell
 - To switch to a different shell, type its name in the terminal (if installed). For example:
 ```bash
-    zsh  # Switch to zsh
-    bash # Switch to bash
+zsh  # Switch to zsh
+bash # Switch to bash
 ```
 - To make a shell your default, you can use the chsh command:
 ```bash
@@ -32,26 +32,26 @@ chsh -s /bin/sh rohit      # change shell from bash to sh for user rohit
 - A command in Linux is an instruction given to the shell to perform a specific action.
 - For example: The echo command is used to print a line of text on the screen.
 ```bash
-    echo
+echo
 ```
 
 - An argument acts as an input to the command.
 - For example: To print a hello message type echo hello command.
 ```bash
-    echo hello
+echo hello
 ```
 
 - Many of the commands needs arguments to work, though it is not mandatory. There are several commands that work without arguments too.
 - For example: Type in the command called uptime, this is used to print information about how long a system has been running for since the last reboot along with the other information.
 ```bash
-    uptime
+uptime
 ```
 
 - A command can also have options to modify its behavior in some predetermined way.
 - The option, also sometimes referred to as a switch or a flag, is usually start with a - (single character) or -- (full word).
 - For example: To print a same word hello but without a trailing line, use echo command with -n flag.
 ```bash
-    echo -n hello
+echo -n hello
 ```
 
 ## Command Types
@@ -66,11 +66,11 @@ chsh -s /bin/sh rohit      # change shell from bash to sh for user rohit
         - For Example: mv, date, uptime, cp, etc.
 - To determine whether the command is internal or external, use the type command.
 ```bash
-        type echo                        # command
-        echo is a shell build-in         # output
+type echo                        # command
+echo is a shell build-in         # output
 
-        type mv                          # command
-        mv is hashed (/bin/mv)           # output
+type mv                          # command
+mv is hashed (/bin/mv)           # output
 ```
 
 ---
@@ -95,13 +95,13 @@ chsh -s /bin/sh rohit      # change shell from bash to sh for user rohit
 ## Defining Variables
 - No spaces are allowed around the = when assigning values and do not use $ sign before the variable name.
 ```bash
-    age=40
+age=40
 ```
 
 ## Accessing Variables
 - Use a $ prefix to reference a variable's value.
 ```bash
-    echo $age
+echo $age
 ```
 
 ## Naming rules
@@ -164,8 +164,8 @@ chsh -s /bin/sh rohit      # change shell from bash to sh for user rohit
 ## Manual (Man) Pages
 - Most of the commands internal or external come bundled with man pages which provides information about the command in detail (with examples, usecases and with command options).
 ```bash
-    man <command>
-    man -k <search term>
+man <command>
+man -k <search term>
 ```
 
 ## Commands
@@ -182,7 +182,7 @@ chsh -s /bin/sh rohit      # change shell from bash to sh for user rohit
 ## Info Pages
 - More detailed than man pages; divided into different nodes or pages and works like a web browser.
 ```bash
-    info <command>
+info <command>
 ```
 - p for previous
 - n for next
