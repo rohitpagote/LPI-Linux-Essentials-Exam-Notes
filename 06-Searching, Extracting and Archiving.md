@@ -31,7 +31,7 @@ echo "This is the bash shell" | tee -a
     - **Standard ERROR (STDERR)**: Error messages of the command are sent through the standard ERROR stream.
 - With IO Redirection, the STDIN, STDOUT and STDERR can be redirected to a text file.
 
-![IO Redirection](io-redirection.png)
+![IO Redirection](images/io-redirection.png)
 
 - Redirect to an output file if you need to save it for future reference.
 - Redirect from an input file if you have a program that needs it.
